@@ -1,0 +1,269 @@
+.aboutfirst {
+    width: 100vw;
+    /* min-height: 100vh; */
+    background-color: #000;
+    color: white;
+    background-image: url('../src/abouthero.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.lineabout {
+    max-width: 23.625rem;
+    width: 100%;
+    /* width: 19.688vw; */
+    height: 0rem;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border: 2px solid white;
+    margin: auto;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    z-index: 33;
+}
+
+.about-center {
+    width: 100%;
+    /* height: 100vh; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 500px; */
+}
+
+.aboutsideimg {
+    position: absolute;
+    top: 300px;
+    right: 150px;
+    /* z-index: 2; */
+}
+
+.aboutsideimg img {
+    width: 39.31919rem;
+    height: 39.375rem;
+    flex-shrink: 0;
+    /* z-index: -3; */
+}
+
+.about-headders {
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    margin: auto;
+    max-width: 85%;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.about-headders .aboutaro {
+    /* height: 16px; */
+    height: auto;
+    width: 0.833vw;
+    margin-bottom: 5px;
+
+}
+
+.about-headders h3 {
+    /* width: 126px; */
+    height: auto;
+    flex-shrink: 0;
+    color: #6D95FC;
+    font-family: Poppins;
+    font-size: 1.094vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.045px;
+    text-transform: uppercase;
+}
+
+.about-headders h1 {
+    /* max-width: 42.3125rem !important; */
+    max-width: 35.260vw !important;
+    height: auto !important;
+    /* flex-shrink: 0; */
+    /* max-width: 863px; */
+    /* width: 100%; */
+    /* height: 180px; */
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 4.167vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%;
+    /* 99.6px */
+    text-transform: capitalize;
+}
+
+
+.about-text-contain {
+    width: 85%;
+    margin:200px auto;
+
+
+}
+
+.about-containe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    max-width: 43.800vw;
+    /* max-width: 52.56rem; */
+    width: 100%;
+
+}
+
+.about-containe h1 {
+    color: #FFF;
+    font-family: Poppins;
+    /* font-size: 3rem; */
+    font-size: 2.500vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%;
+    /* 3.735rem */
+    /* text-transform: capitalize;/ */
+}
+
+
+
+.about-containe .aline1 {
+    width: 5.078vw;
+    height: 0rem;
+    border: 3px solid white;
+    /* stroke-width: 3px; */
+    background-color: #FFF;
+}
+
+.about-containe h3 {
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    /* 2.49rem */
+    /* text-transform: uppercase; */
+}
+
+.about-containe-para {
+    max-width: 36.875vw;
+    width: 100%;
+}
+
+.about-containe-para p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.094vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%;
+    /* 1.63406rem */
+    text-transform: capitalize;
+}
+
+.about-containe button {
+    display: flex;
+    width: 9.115vw;
+    padding: 0.625rem 1.5625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.125rem;
+    border: 3px solid #6D95FC;
+    background-color: transparent;
+}
+
+.about-containe button a {
+    color: #FFF;
+    text-align: center;
+    font-size: 0.885vw;
+    font-weight: 400;
+    letter-spacing: 0.15406rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.discover {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.discover h2 {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 1.667vw;
+    /* font-size: 2rem; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.discover img {
+    width:2.196vw;
+    /* height: 66px; */
+    height: auto;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+
+.about-text-containe {
+    width: 85%;
+    margin: auto;
+
+}
+
+.about-weare {
+    max-width: 79.583vw;
+    /* max-width: 95.55rem; */
+    width: 100%;
+
+    /*  */
+}
+
+.about-weare h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.500vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    /* 3.735rem */
+    text-transform: capitalize;
+}
+
+.about-weare-para {
+    /* max-width: 1528px; */
+    max-width: 79.583vw;
+    width: 100%;
+    flex-shrink: 0;
+
+}
+
+.about-weare-para p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size:2.083vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%;
+    text-transform: capitalize;
+}
